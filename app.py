@@ -51,5 +51,7 @@ cals=66+(13.7*masa)+(5*estatura)-(6.8*edad)
 st.write(cals)
 st.text('El resultado es la cantidad de calorías promedio que necesita el cuerpo para')
 st.text('cumplir las funciones básicas.(Estando en reposo)')
-st.text('El tener una buena alimentación nos proporciona nutirntes y vitaminas para que nuestro organismo logre tener un buen funcionamiento, para lograr mantenerlo sano y al mismo tiempo minimizar el riesgo de contraer enfermedades.')
+st.text('El tener una buena alimentación nos proporciona nutirntes y vitaminas para que ')
+st.text('nuestro organismo logre tener un buen funcionamiento, para lograr mantenerlo ')
+st.text('sano y al mismo tiempo minimizar el riesgo de contraer enfermedades.')
 
