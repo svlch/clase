@@ -41,3 +41,4 @@ altura=st.number_input("Ingresa tu estatura en metros",1.65)
 edad=st.number_input('Ingresa tu edad',19)
 cals=66+(13.7*peso)+(5*altura)-(6.8*edad)
 st.write(cals)
+
