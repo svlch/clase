@@ -33,7 +33,7 @@ altura=st.number_input("Ingresa tu estatura en metros",1.5)
 edad=st.number_input('Ingresa tu edad',19)
 Calorías=655+(9.6*peso)+(1.8*altura)-(4.7*edad)
 st.write(Calorías)
-st.text('El resultado es la cantida de calorías promedio que necesita el cuerpo para')
+st.text('El resultado es la cantidad de calorías promedio que necesita el cuerpo para')
 st.text('cumplir las funciones básicas.(Estando en reposo)')
 st.latex(r'''
 Hombres=66+(13.7*peso)+(5*altura)-(6.8*edad)
