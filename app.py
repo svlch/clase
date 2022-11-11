@@ -17,7 +17,8 @@ Vasos=\frac{Peso}{7}
 Peso=st.number_input("Ingresa tu peso en kilos",50)
 Vasos=Peso/7
 st.write(Vasos)
-st.text('El resultado de esta división es la cantidad de vasos de agua(250ml) que debe consumir por día')
+st.text('El resultado de esta división es la cantidad de vasos de agua(250ml)')
+st.text('que debe consumir por día')
 st.subheader('El plato el buen comer')
 st.text('Es una guía diseñada por mexicanos para mexicanos con la finalidad de orientar ')
 st.text('a la población hacia una alimentación saludable,')
