@@ -40,7 +40,7 @@ Hombres=66+(13.7*peso)+(5*altura)-(6.8*edad)
 ''')
 masa=st.number_input("Ingresa tu peso en kg",60)
 estatura=st.number_input("Ingresa tu estatura en metros",1.65)
-edad=st.number_input('Ingresa tu edad',19)
+edad=st.number_input('Ingresa tu edad',20)
 cals=66+(13.7*masa)+(5*estatura)-(6.8*edad)
 st.write(cals)
 
