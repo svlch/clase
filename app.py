@@ -10,7 +10,6 @@ st.sidebar.write('Una alimentación saludable es aquella que proporciona los nut
 opciones=['si','no']
 saludable=st.sidebar.radio('Tienes una alimentación saludable?',opciones)
 if saludable=='si':
-    st.balloons()
     st.sidebar.image('https://img.freepik.com/vector-gratis/personas-sanas-llevando-diferentes-iconos_53876-43069.jpg?w=2000')
 if saludable=='no':
     st.sidebar.image('https://thumbs.dreamstime.com/b/persona-deprimida-triste-d-51186816.jpg')
@@ -35,9 +34,9 @@ st.markdown('**_¿Cuántas calorías debo consumir al día?_**')
 st.latex(r'''
 Mujeres=655+(9.6*peso)+(1.8*altura)-(4.7*edad)
 ''')
-peso=st.number_input("Ingresa tu peso en kg",50)
-altura=st.number_input("Ingresa tu estatura en metros",1.5)
-edad=st.number_input('Ingresa tu edad',19)
+peso=st.number_input("Ingresa tu peso en kg",40)
+altura=st.number_input("Ingresa tu estatura en metros",1.4)
+edad=st.number_input('Ingresa tu edad',15)
 Calorías=655+(9.6*peso)+(1.8*altura)-(4.7*edad)
 st.write(Calorías)
 st.text('El resultado es la cantidad de calorías promedio que necesita el cuerpo para')
@@ -45,9 +44,9 @@ st.text('cumplir las funciones básicas.(Estando en reposo)')
 st.latex(r'''
 Hombres=66+(13.7*peso)+(5*altura)-(6.8*edad)
 ''')
-masa=st.number_input("Ingresa tu peso en kg",60)
-estatura=st.number_input("Ingresa tu estatura en metros",1.65)
-edad=st.number_input('Ingresa tu edad',20)
+masa=st.number_input("Ingresa tu peso en kg",50)
+estatura=st.number_input("Ingresa tu estatura en metros",1.60)
+edad=st.number_input('Ingresa tu edad',15)
 cals=66+(13.7*masa)+(5*estatura)-(6.8*edad)
 st.write(cals)
 st.text('El resultado es la cantidad de calorías promedio que necesita el cuerpo para')
