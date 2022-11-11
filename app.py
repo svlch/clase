@@ -7,7 +7,11 @@ for percent_complete in range(100):
 st.title('Comenzando con una buena alimentación')
 st.sidebar.header('¿En qué consiste una buena alimentación?')
 st.sidebar.write('Una alimentación saludable es aquella que proporciona los nutrientes que el cuerpo necesita para mantener el buen funcionamiento del organismo, conservar o restablecer la salud y minimizar el riesgo de enfermedades.')
-st.sidebar.checkbox('Tienes una alimentación saludable?')
+saludable=st.sidebar.checkbox('Tienes una alimentación saludable?')
+if saludable=='si':
+    st.sidebar.image('https://img.freepik.com/vector-gratis/personas-sanas-llevando-diferentes-iconos_53876-43069.jpg?w=2000')
+if saludable=='no':
+    st.sidebar.image('https://thumbs.dreamstime.com/b/persona-deprimida-triste-d-51186816.jpg')
 st.subheader('La jarra del buen beber')
 st.text('Es una guía informativa para la población mexicana que muestra las bebidas')
 st.text('saludables y la cantidad de líquidos que se recomienda consumir al día.')
