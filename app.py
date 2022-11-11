@@ -10,6 +10,7 @@ st.sidebar.write('Una alimentación saludable es aquella que proporciona los nut
 opciones=['si','no']
 saludable=st.sidebar.radio('Tienes una alimentación saludable?',opciones)
 if saludable=='si':
+    st.balloons()
     st.sidebar.image('https://img.freepik.com/vector-gratis/personas-sanas-llevando-diferentes-iconos_53876-43069.jpg?w=2000')
 if saludable=='no':
     st.sidebar.image('https://thumbs.dreamstime.com/b/persona-deprimida-triste-d-51186816.jpg')
