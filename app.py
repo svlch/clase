@@ -43,4 +43,5 @@ estatura=st.number_input("Ingresa tu estatura en metros",1.65)
 edad=st.number_input('Ingresa tu edad',20)
 cals=66+(13.7*masa)+(5*estatura)-(6.8*edad)
 st.write(cals)
-
+st.text('El resultado es la cantidad de calorías promedio que necesita el cuerpo para')
+st.text('cumplir las funciones básicas.(Estando en reposo)')
