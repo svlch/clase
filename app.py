@@ -30,7 +30,7 @@ Mujeres=655+(9.6*peso)+(1.8*altura)-(4.7*edad)
 ''')
 peso=st.number_input("Ingresa tu peso en kg",50)
 altura=st.number_input("Ingresa tu estatura en metros",1.5)
-edad=st.number_input
+edad=st.number_input('Ingresa tu edad',18)
 Calorías=655+(9.6*peso)+(1.8*altura)-(4.7*edad)
 st.write(Calorías)
 st.latex(r'''
