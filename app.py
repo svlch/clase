@@ -14,6 +14,7 @@ st.image('https://cdn.foodandwineespanol.com/2020/09/Jarra_del_buen_Beber.jpg')
 st.latex(r'''
 Vasos=\frac{Peso}{7}
 ''')
+Peso=st.number_input("Ingresa tu peso en kilos",50)
 st.subheader('El plato el buen comer')
 st.text('Es una guía diseñada por mexicanos para mexicanos con la finalidad de orientar ')
 st.text('a la población hacia una alimentación saludable,')
