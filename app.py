@@ -1,5 +1,5 @@
 import streamlit as st
-with st.spinner('Cargando...'):
+st.spinner('Cargando...'):
     time.sleep(5)
 st.success('Listo!')
 st.title('Comenzando con una buena alimentación')
