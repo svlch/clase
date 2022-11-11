@@ -26,8 +26,18 @@ st.text('adecuada a nuestra cultura, costumbres,necesidades y posibilidades pers
 st.image('https://www.gob.mx/cms/uploads/image/file/489745/plato_bien_comer_2.jpg')
 st.markdown('**_¿Cuántas calorías debo consumir al día?_**')
 st.latex(r'''
-Mujeres=655+(9.6*kg)+(1.8*altura)-(4.7*edad)
+Mujeres=655+(9.6*peso)+(1.8*altura)-(4.7*edad)
 ''')
+peso=st.number_input("Ingresa tu peso en kg",50)
+altura=st.number_input("Ingresa tu estatura en metros",1.5)
+edad=st.number_input
+Calorías=655+(9.6*peso)+(1.8*altura)-(4.7*edad)
+st.write(Calorías)
 st.latex(r'''
-Hombres=66+(13.7*kg)+(5*altura)-(6.8*edad)
+Hombres=66+(13.7*peso)+(5*altura)-(6.8*edad)
 ''')
+peso=st.number_input("Ingresa tu peso en kg",60)
+altura=st.number_input("Ingresa tu estatura en metros",1.65)
+edad=st.number_input
+calorías=66+(13.7*peso)+(5*altura)-(6.8*edad)
+st.write(calorías)
