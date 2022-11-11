@@ -28,3 +28,6 @@ st.markdown('**_¿Cuántas calorías debo consumir al día?_**')
 st.latex(r'''
 Mujeres=655+(9.6*kg)+(1.8*altura)-(4.7*edad)
 ''')
+st.latex(r'''
+Hombres=66+(13.7*kg)+(5*altura)-(6.8*edad)
+''')
