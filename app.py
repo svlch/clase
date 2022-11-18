@@ -49,7 +49,7 @@ if estilo=='Moderadamente activo':
 if estilo=='Muy activo':
     multi=Calorías*2
     st.write(multi)
-st.text('Cantidad de calorias (aproximadas) que gasta el cuerpo dependiendo el estilo de vida seleccionado')
+st.text('Cantidad de calorias (aproximadas) que gasta el cuerpo dependiendo el estilo de vida seleccionado.')
 st.latex(r'''
 Hombres=66+(13.7*peso)+(5*altura)-(6.8*edad)
 ''')
@@ -73,7 +73,7 @@ if esti=='moderadamente activo':
 if esti=='muy activo':
     mult=cals*2
     st.write(mult)
-st.text('Cantidad de calorias (aproximadas) que gasta el cuerpo dependiendo el estilo de vida seleccionado')
+st.text('Cantidad de calorias (aproximadas) que gasta el cuerpo dependiendo el estilo de vida seleccionado.')
 st.subheader('¿Qué platillo elegírias?')
 plato=['Pollo, frijoles, arroz, lechuga, tomate y tortillas de maíz', 'Huevo, frijoles, tortillas de maiz','Pescado, arroz, lechuga, tomate']
 opcioness=st.selectbox('Escoge los alimentos que desees',('Pollo, frijoles, arroz, lechuga, tomate y tortillas de maíz', 'Huevo, frijoles, tortillas de maiz','Pescado, arroz, lechuga, tomate' ))
@@ -84,7 +84,7 @@ if opcioness=='Huevo, frijoles, tortillas de maiz':
 if opcioness=='Pescado, arroz, lechuga, tomate':
     st.text('Este platillo contiene 138 calorías')
 st.subheader('¿Para qué tener una buena alimentación?')
-st.text('El tener una buena alimentación nos proporciona nutirntes y vitaminas para que ')
+st.text('El tener una buena alimentación nos proporciona nutrientes y vitaminas para que ')
 st.text('nuestro organismo logre tener un buen funcionamiento, para lograr mantenerlo ')
 st.text('sano, fortalecer el sistema inmune y al mismo tiempo minimizar el riesgo de ') 
 st.text('contraer enfermedades.')
