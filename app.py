@@ -85,6 +85,6 @@ if opcioness=='Pescado, arroz, lechuga, tomate':
     st.text('Este platillo contiene 138 calorías')
 st.subheader('¿Para qué tener una buena alimentación?')
 st.text('El tener una buena alimentación nos proporciona los nutrientes y vitaminas necesarios')
-st.text('para que nuestro organismo logre tener un buen funcionamiento, lograr mantenerlo sano')
-st.text('y fortalecer el sistema inmune.')
+st.text('para que nuestro organismo logre tener un buen funcionamiento, lograr mantenerlo')
+st.text('sano y fortalecer el sistema inmune.')
 
