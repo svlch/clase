@@ -51,6 +51,7 @@ cals=66+(13.7*masa)+(5*estatura)-(6.8*edad)
 st.write(cals)
 st.text('El resultado es la cantidad de calorías promedio que necesita el cuerpo para')
 st.text('cumplir las funciones básicas.(Estando en reposo)')
+plato=['Pollo','Huevo','Pescado','Frijoles','Arroz','Lechuga','Tomate','Queso','Tortillas de maíz']
 opcioness = st.multiselect('Escoge los alimentos que desees',['Pollo','Huevo','Pescado','Frijoles','Arroz','Lechuga','Tomate','Queso','Tortillas de maíz'])
 if opcioness=='Pollo','Frijoles','Arroz','Lechuga','Tomate','Tortillas de maíz':
     st.text('Este platillo contiene 383 calorías')
