@@ -49,6 +49,10 @@ estatura=st.number_input("Ingresa tu estatura en metros",1.60)
 edad=st.number_input('Ingresa tu edad',16)
 cals=66+(13.7*masa)+(5*estatura)-(6.8*edad)
 st.write(cals)
+estilo=st.radio('¿Qué estilo de vida llevas?',('Sedentario','Ligeramente activo','Moderadamente activo','Muy activo'))
+if estilo=='Sedentario':
+    multi=cals*1.40
+st.write(multi)
 st.text('El resultado es la cantidad de calorías promedio que necesita el cuerpo para')
 st.text('cumplir las funciones básicas.(Estando en reposo)')
 st.subheader('¿Qué platillo elegírias?')
