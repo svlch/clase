@@ -55,6 +55,8 @@ plato=['Pollo, frijoles, arroz, lechuga, tomate y tortillas de maíz', 'Huevo, f
 opcioness=st.selectbox('Escoge los alimentos que desees',('Pollo, frijoles, arroz, lechuga, tomate y tortillas de maíz', 'Huevo, frijoles, tortillas de maiz','Pescado, arroz, lechuga, tomate' ))
 if opcioness=='Pollo, frijoles, arroz, lechuga, tomate y tortillas de maíz':
     st.text('Este platillo contiene 383 calorías')
+if opcioness=='Huevo, frijoles, tortillas de maiz':
+     st.text('Este platillo contiene 400 calorías')
 st.subheader('¿Para qué tener una buena alimentación?')
 st.text('El tener una buena alimentación nos proporciona nutirntes y vitaminas para que ')
 st.text('nuestro organismo logre tener un buen funcionamiento, para lograr mantenerlo ')
