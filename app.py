@@ -75,14 +75,18 @@ if esti=='muy activo':
     st.write(mult)
 st.text('Cantidad de calorias (aproximadas) que gasta el cuerpo dependiendo el estilo de vida seleccionado.')
 st.subheader('¿Qué platillo elegírias?')
-plato=['Pollo, frijoles, arroz, lechuga, tomate y tortillas de maíz', 'Huevo, frijoles, tortillas de maiz','Pescado, arroz, lechuga, tomate']
-opcioness=st.selectbox('Escoge los alimentos que desees',('Pollo, frijoles, arroz, lechuga, tomate y tortillas de maíz', 'Huevo, frijoles, tortillas de maiz','Pescado, arroz, lechuga, tomate' ))
+plato=['Pollo, frijoles, arroz, lechuga, tomate y tortillas de maíz', 'Huevo, frijoles, tortillas de maiz','Pescado, arroz, lechuga, tomate','Carne, arroz y espinacas', 'Atún, elote, lechuga y tomate']
+opcioness=st.selectbox('Escoge los alimentos que desees',('Pollo, frijoles, arroz, lechuga, tomate y tortillas de maíz', 'Huevo, frijoles, tortillas de maiz','Pescado, arroz, lechuga, tomate', 'Carne, arroz y espinacas', 'Atún, elote, lechuga y tomate'))
 if opcioness=='Pollo, frijoles, arroz, lechuga, tomate y tortillas de maíz':
     st.text('Este platillo contiene 383 calorías')
 if opcioness=='Huevo, frijoles, tortillas de maiz':
      st.text('Este platillo contiene 400 calorías')
 if opcioness=='Pescado, arroz, lechuga, tomate':
     st.text('Este platillo contiene 138 calorías')
+if opcioness=='Carne, arroz y espinacas':
+    st.text('Este platillo contiene 205 calorías')
+if opciones=='Atún, elote, lechuga y tomate':
+    st.text('Este platillo contiene 212 calorías')
 st.subheader('¿Para qué tener una buena alimentación?')
 st.text('El tener una buena alimentación nos proporciona los nutrientes y vitaminas necesarios')
 st.text('para que nuestro organismo logre tener un buen funcionamiento, lograr mantenerlo')
