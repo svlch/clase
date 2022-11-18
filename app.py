@@ -85,7 +85,7 @@ if opcioness=='Pescado, arroz, lechuga, tomate':
     st.text('Este platillo contiene 138 calorías')
 if opcioness=='Carne, arroz y espinacas':
     st.text('Este platillo contiene 205 calorías')
-if opciones=='Atún, elote, lechuga y tomate':
+if opcioness=='Atún, elote, lechuga y tomate':
     st.text('Este platillo contiene 212 calorías')
 st.subheader('¿Para qué tener una buena alimentación?')
 st.text('El tener una buena alimentación nos proporciona los nutrientes y vitaminas necesarios')
