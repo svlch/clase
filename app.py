@@ -43,16 +43,16 @@ st.text('El resultado es la cantidad de calorías promedio que necesita el cuerp
 st.text('cumplir las funciones básicas.(Estando en reposo)')
 estilo=st.radio('¿Qué estilo de vida llevas?',('Sedentario','Ligeramente activo','Moderadamente activo','Muy activo'))
 if estilo=='Sedentario':
-    multi=cals*1.40
+    multi=Calorías*1.40
     st.write(multi)
 if estilo=='Ligeramente activo':
-    multi=cals*1.69
+    multi=Calorías*1.69
     st.write(multi)
 if estilo=='Moderadamente activo':
-    multi=cals*1.80
+    multi=Calorías*1.80
     st.write(multi)
 if estilo=='Muy activo':
-    multi=cals*2
+    multi=Calorías*2
     st.write(multi)
 st.latex(r'''
 Hombres=66+(13.7*peso)+(5*altura)-(6.8*edad)
