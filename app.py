@@ -59,17 +59,17 @@ cals=66+(13.7*masa)+(5*estatura)-(6.8*edad)
 st.write(cals)
 st.text('El resultado es la cantidad de calorías promedio que necesita el cuerpo para')
 st.text('cumplir las funciones básicas.(Estando en reposo)')
-estilo=st.radio('¿Qué estilo de vida llevas?',('Sedentario','Ligeramente activo','Moderadamente activo','Muy activo'))
-if estilo=='Sedentario':
+esti=st.radio('¿Qué estilo de vida llevas?',('Sedentario','Ligeramente activo','Moderadamente activo','Muy activo'))
+if esti=='Sedentario':
     multi=cals*1.40
     st.write(multi)
-if estilo=='Ligeramente activo':
+if esti=='Ligeramente activo':
     multi=cals*1.69
     st.write(multi)
-if estilo=='Moderadamente activo':
+if esti=='Moderadamente activo':
     multi=cals*1.80
     st.write(multi)
-if estilo=='Muy activo':
+if esti=='Muy activo':
     multi=cals*2
     st.write(multi)
 st.subheader('¿Qué platillo elegírias?')
