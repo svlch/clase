@@ -89,5 +89,5 @@ st.text('para que nuestro organismo logre tener un buen funcionamiento, lograr m
 st.text('sano y fortalecer el sistema inmune.')
 
 st.caption('Elaborado para la materia de programación por: Paulina Cano, Valentina López,')
-st.caption('Luis Luna y Mariana Silva del grupo 4O'
+st.caption('Luis Luna y Mariana Silva del grupo 4O')
 st.caption('Universidad Autónoma de Chihuahua, FCQ')
