@@ -52,7 +52,7 @@ st.write(cals)
 st.text('El resultado es la cantidad de calorías promedio que necesita el cuerpo para')
 st.text('cumplir las funciones básicas.(Estando en reposo)')
 opcioness = st.selectbox('Escoge los alimentos que desees',('Pollo, frijoles, arroz, lechuga, tomate y tortillas de maíz', 'Huevo, frijoles, tortillas de maiz','Pescado, arroz, lechuga, tomate' )
-if opcioness==('Pollo, frijoles, arroz, lechuga, tomate y tortillas de maíz'):
+if opcioness=='Pollo, frijoles, arroz, lechuga, tomate y tortillas de maíz':
     st.text('Este platillo contiene 383 calorías')
 st.subheader('¿Para qué tener una buena alimentación?')
 st.text('El tener una buena alimentación nos proporciona nutirntes y vitaminas para que ')
