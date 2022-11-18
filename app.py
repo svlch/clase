@@ -88,6 +88,6 @@ st.text('El tener una buena alimentación nos proporciona los nutrientes y vitam
 st.text('para que nuestro organismo logre tener un buen funcionamiento, lograr mantenerlo')
 st.text('sano y fortalecer el sistema inmune.')
 
-st.caption('Elaborado para la materia de programación por: Paulina Cano, Valentina López,')
-st.caption('Luis Luna y Mariana Silva del grupo 4O. FCQ, UACH')
+st.caption('Elaborado para la materia de programación por: Paulina Cano 335360, Valentina López 360890,')
+st.caption('Luis Luna 355421 y Mariana Silva 355399 del grupo 4O. FCQ, UACH')
 st.caption(' 18/11/2022')
