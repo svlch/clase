@@ -49,6 +49,8 @@ estatura=st.number_input("Ingresa tu estatura en metros",1.60)
 edad=st.number_input('Ingresa tu edad',16)
 cals=66+(13.7*masa)+(5*estatura)-(6.8*edad)
 st.write(cals)
+st.text('El resultado es la cantidad de calorías promedio que necesita el cuerpo para')
+st.text('cumplir las funciones básicas.(Estando en reposo)')
 estilo=st.radio('¿Qué estilo de vida llevas?',('Sedentario','Ligeramente activo','Moderadamente activo','Muy activo'))
 if estilo=='Sedentario':
     multi=cals*1.40
@@ -62,8 +64,6 @@ if estilo=='Moderadamente activo':
 if estilo=='Muy activo':
     multi=cals*2
     st.write(multi)
-st.text('El resultado es la cantidad de calorías promedio que necesita el cuerpo para')
-st.text('cumplir las funciones básicas.(Estando en reposo)')
 st.subheader('¿Qué platillo elegírias?')
 plato=['Pollo, frijoles, arroz, lechuga, tomate y tortillas de maíz', 'Huevo, frijoles, tortillas de maiz','Pescado, arroz, lechuga, tomate']
 opcioness=st.selectbox('Escoge los alimentos que desees',('Pollo, frijoles, arroz, lechuga, tomate y tortillas de maíz', 'Huevo, frijoles, tortillas de maiz','Pescado, arroz, lechuga, tomate' ))
