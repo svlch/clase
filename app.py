@@ -54,14 +54,14 @@ if estilo=='Sedentario':
     multi=cals*1.40
 st.write(multi)
 if estilo=='Ligeramente activo':
-    multip=cals*1.69
-st.write(multip)
+    multi=cals*1.69
+st.write(multi)
 if estilo=='Moderadamente activo':
-    mult=cals*1.80
-st.write(mult)
+    multi=cals*1.80
+st.write(multi)
 if estilo=='Muy activo':
-    mul=cals*2
-st.write(mul)
+    multi=cals*2
+st.write(multi)
 st.text('El resultado es la cantidad de calorías promedio que necesita el cuerpo para')
 st.text('cumplir las funciones básicas.(Estando en reposo)')
 st.subheader('¿Qué platillo elegírias?')
