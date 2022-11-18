@@ -61,17 +61,17 @@ st.text('El resultado es la cantidad de calorías promedio que necesita el cuerp
 st.text('cumplir las funciones básicas.(Estando en reposo)')
 esti=st.radio('¿Qué estilo de vida llevas?',('Sedentario','Ligeramente activo','Moderadamente activo','Muy activo'))
 if esti=='Sedentario':
-    multi=cals*1.40
-    st.write(multi)
+    mult=cals*1.40
+    st.write(mult)
 if esti=='Ligeramente activo':
-    multi=cals*1.69
-    st.write(multi)
+    mult=cals*1.69
+    st.write(mult)
 if esti=='Moderadamente activo':
-    multi=cals*1.80
-    st.write(multi)
+    mult=cals*1.80
+    st.write(mult)
 if esti=='Muy activo':
-    multi=cals*2
-    st.write(multi)
+    mult=cals*2
+    st.write(mult)
 st.subheader('¿Qué platillo elegírias?')
 plato=['Pollo, frijoles, arroz, lechuga, tomate y tortillas de maíz', 'Huevo, frijoles, tortillas de maiz','Pescado, arroz, lechuga, tomate']
 opcioness=st.selectbox('Escoge los alimentos que desees',('Pollo, frijoles, arroz, lechuga, tomate y tortillas de maíz', 'Huevo, frijoles, tortillas de maiz','Pescado, arroz, lechuga, tomate' ))
