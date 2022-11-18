@@ -57,6 +57,8 @@ if opcioness=='Pollo, frijoles, arroz, lechuga, tomate y tortillas de maíz':
     st.text('Este platillo contiene 383 calorías')
 if opcioness=='Huevo, frijoles, tortillas de maiz':
      st.text('Este platillo contiene 400 calorías')
+if opcioness=='Pescado, arroz, lechuga, tomate':
+    st.text('Este platillo contiene 138 calorías')
 st.subheader('¿Para qué tener una buena alimentación?')
 st.text('El tener una buena alimentación nos proporciona nutirntes y vitaminas para que ')
 st.text('nuestro organismo logre tener un buen funcionamiento, para lograr mantenerlo ')
